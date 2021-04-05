@@ -29,7 +29,7 @@ public class DisplayImage extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");
 			
 			System.out.println("Driver loaded");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/osr", "root", "root");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/*****", "**********", "***********");
 			System.out.println("Connection established");
 			
 			String sql = "SELECT PHOTO FROM employe_data WHERE EMAILID = ? ";
