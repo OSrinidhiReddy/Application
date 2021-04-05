@@ -87,8 +87,8 @@ import com.osr.model.Model;
 			public static boolean sendMail(String recepient, User user) throws Exception
 			{
 			boolean test = false;
-			String fromEmail = "srinidhi171098@gmail.com";
-			String password = "Srinidhi@1998";
+			String fromEmail = "***************";
+			String password = "****************";
 			Properties pr = new Properties();
 			pr.setProperty("mail.smtp.host","smtp.gmail.com");
 			pr.setProperty("mail.smtp.port", "587");
