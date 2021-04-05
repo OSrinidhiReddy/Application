@@ -9,9 +9,9 @@ import com.osr.model.Model;
 
 public class Registrationdb 
 {
-		 String url = "jdbc:mysql://localhost:3306/osr";
-		 String username = "root";
-		 String password = "root";
+		 String url = "************";
+		 String username = "******";
+		 String password = "***********";
 
 		public int registration(Model m) throws ClassNotFoundException
 		{
