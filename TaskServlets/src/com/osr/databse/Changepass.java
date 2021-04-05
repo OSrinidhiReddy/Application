@@ -14,9 +14,9 @@ import com.osr.model.Model;
 		PreparedStatement ps;
 			public int changeb(Model m) {
 				int result = 0;
-				String url = "jdbc:mysql://localhost:3306/osr";
-				String uname = "root";
-				String pass = "root";
+				String url = "***************";
+				String uname = "**********";
+				String pass = "************";
 				String db = "com.mysql.jdbc.Driver";
 				
 				String sql = "update employe_data set password=? where password =?";
