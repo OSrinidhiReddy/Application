@@ -10,9 +10,9 @@ import com.osr.model.Model;
 public class Edit {
 		public int edit1(Model r) {
 			int result = 0;
-			String url = "jdbc:mysql://localhost:3306/osr";
-			String username = "root";
-			String password = "root";
+			String url = "**************";
+			String username = "*********";
+			String password = "******";
 			String db = "com.mysql.jdbc.Driver";
 			
 			String sql = "update employe_data set lastname=?,emailid=?,mobilenumber=?,photo=? where firstname =?";
